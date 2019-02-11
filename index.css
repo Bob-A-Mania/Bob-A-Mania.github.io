@@ -1,0 +1,125 @@
+*{
+  background-color: black;
+  scroll-behavior: smooth;
+}
+
+.navigation{
+  font-family: 'Mrs Saint Delafield', cursive;
+  font-size: 34px;
+  font-weight: bold;
+  position: relative;
+  top: 5px;
+}
+
+a{
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Trocchi', serif;
+  font-size: 16px;
+}
+
+ul{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+a:hover{
+  text-decoration:underline;
+  color: white;
+}
+
+#biohead{
+  font-family: 'Gilda Display', serif;
+  font-size: 40px;
+}
+
+.bio{
+  font-family: 'Gilda Display', serif;
+  font-size: 20px;
+  color: white;
+}
+
+
+
+#gallery, #whatever{
+  font-family: 'Gilda Display', serif;
+  font-size: 45px;
+  color: white;
+
+}
+
+.lightbox{
+  position: relative;
+  right: 15px;
+}
+
+
+
+
+#social-fb:hover{
+  color: #3b5998;
+}
+
+#social-sn:hover{
+  color: #FFFC00;
+}
+
+#social-in:hover{
+  color:  #fbad50;
+}
+
+#social-yt:hover{
+  color: #ff0000;
+}
+
+#social-it:hover{
+  color: #D0E0F4;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+
+.feedback-input {
+  color:white;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #969ba3;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #CC4949; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#969ba3;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#CC4949; }
