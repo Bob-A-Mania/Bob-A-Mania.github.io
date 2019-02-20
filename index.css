@@ -1,5 +1,5 @@
 *{
-  background-color: black;
+  background-color: #3d637c;
   scroll-behavior: smooth;
 }
 
@@ -20,14 +20,20 @@ a{
   font-size: 16px;
 }
 
+img{
+  border-color: #044260;
+  border-width: thin;
+  border-style: solid;
+}
+
 ul{
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
 a:hover{
-  text-decoration:underline;
-  color: white;
+  text-decoration:none;
+  color: #96999b;
 }
 
 #biohead{
@@ -46,7 +52,7 @@ a:hover{
 #gallery, #whatever{
   font-family: 'Gilda Display', serif;
   font-size: 45px;
-  color: white;
+  color: white ;
 
 }
 
@@ -122,4 +128,4 @@ textarea {
   margin-top:-4px;
   font-weight:700;
 }
-[type="submit"]:hover { background:#CC4949; }
+[type="submit"]:hover { background:#044260; }
